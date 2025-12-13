@@ -1,29 +1,13 @@
-# Badges Configuration
-# This file defines the badges used in the README.md
-# All URLs must point to the correct repository: https://github.com/chirag127/TabGroupManager-VSCode-Extension
-
 badges:
-  - name: "Build Status"
-    icon: "github actions"
-    link: "https://github.com/chirag127/TabGroupManager-VSCode-Extension/actions/workflows/ci.yml"
-    image: "https://img.shields.io/github/actions/workflow/status/chirag127/TabGroupManager-VSCode-Extension/ci.yml?style=flat-square&logo=githubactions&logoColor=white"
-  - name: "Code Coverage"
-    icon: "codecov"
-    link: "https://app.codecov.io/gh/chirag127/TabGroupManager-VSCode-Extension"
-    image: "https://img.shields.io/codecov/c/github/chirag127/TabGroupManager-VSCode-Extension?style=flat-square&logo=codecov&logoColor=white"
-  - name: "Tech Stack (TypeScript)"
-    icon: "typescript"
-    link: "https://www.typescriptlang.org/"
-    image: "https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white"
-  - name: "VS Code Extension"
-    icon: "vscode"
-    link: "https://marketplace.visualstudio.com/items?itemName=chirag127.tabgroupmanager"
-    image: "https://img.shields.io/badge/VSCode%20Extension-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white"
-  - name: "License (CC BY-NC 4.0)"
-    icon: "cc-by-nc"
-    link: "https://github.com/chirag127/TabGroupManager-VSCode-Extension/blob/main/LICENSE"
-    image: "https://img.shields.io/badge/License-CC%20BY--NC%204.0-blue?style=flat-square&logo=creativecommons"
-  - name: "GitHub Stars"
-    icon: "github"
-    link: "https://github.com/chirag127/TabGroupManager-VSCode-Extension"
-    image: "https://img.shields.io/github/stars/chirag127/TabGroupManager-VSCode-Extension?style=flat-square&logo=github"
+  - name: Build Status
+    markdown: "[![Build Status](https://img.shields.io/github/actions/workflow/status/chirag127/TabGroupSaver-Session-Manager-VSCode-Extension/ci.yml?branch=main&style=flat-square)](https://github.com/chirag127/TabGroupSaver-Session-Manager-VSCode-Extension/actions/workflows/ci.yml)"
+  - name: Code Coverage
+    markdown: "[![Coverage Status](https://img.shields.io/codecov/c/github/chirag127/TabGroupSaver-Session-Manager-VSCode-Extension?style=flat-square)](https://app.codecov.io/gh/chirag127/TabGroupSaver-Session-Manager-VSCode-Extension)"
+  - name: Tech Stack
+    markdown: "[![Tech Stack](https://img.shields.io/badge/Tech%20Stack-TypeScript%20%7C%20VSCode%20Extension-blue?style=flat-square)](https://github.com/chirag127/TabGroupSaver-Session-Manager-VSCode-Extension)"
+  - name: Lint/Format
+    markdown: "[![Lint/Format](https://img.shields.io/badge/formatter-Biome-ff69b4?style=flat-square)](https://github.com/chirag127/TabGroupSaver-Session-Manager-VSCode-Extension)"
+  - name: License
+    markdown: "[![License](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey?style=flat-square)](https://github.com/chirag127/TabGroupSaver-Session-Manager-VSCode-Extension/blob/main/LICENSE)"
+  - name: Stars
+    markdown: "[![Stars](https://img.shields.io/github/stars/chirag127/TabGroupSaver-Session-Manager-VSCode-Extension?style=flat-square)](https://github.com/chirag127/TabGroupSaver-Session-Manager-VSCode-Extension/stargazers)"
